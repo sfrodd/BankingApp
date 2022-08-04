@@ -15,7 +15,7 @@ public class DemoApplication {
 		Bank b=new Bank();
 		SBAccount sb=new SBAccount("SBAccount",5000.00f);
 		RDAccount rd=new RDAccount(10000.00f);
-		System.out.println(b.computeInterest(sb));
+		System.out.println(b.computeInterest());
 		System.out.println(b.computeInterest(rd));
 	}
 
